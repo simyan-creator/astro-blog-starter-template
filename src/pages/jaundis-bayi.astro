@@ -1,0 +1,113 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+
+const pageTitle = 'Jaundis Bayi: Apa Yang Ibu Bapa Perlu Tahu';
+const pageDescription =
+  'Panduan ringkas tentang jaundis bayi untuk ibu bapa di Malaysia – punca, simptom, bila perlu bimbang dan apa yang biasanya dilakukan di hospital.';
+---
+
+<!doctype html>
+<html lang="ms">
+  <head>
+    <BaseHead title={`${pageTitle} | ${SITE_TITLE}`} description={pageDescription} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <article>
+        <h1>{pageTitle}</h1>
+        <p>
+          Jaundis bayi (kuning) adalah salah satu perkara paling biasa yang menakutkan ibu bapa
+          baru, tetapi dalam banyak kes ia sebenarnya normal dan sementara. Ramai bayi baru lahir
+          akan mengalami kulit dan mata yang kelihatan kekuningan dalam beberapa hari pertama
+          selepas dilahirkan.
+        </p>
+        <p>
+          Walaupun kebanyakan kes jaundis adalah ringan, penting untuk ibu bapa faham apa yang
+          berlaku, apa tanda bahaya dan bila masa yang sesuai untuk mendapatkan pemeriksaan
+          lanjut daripada doktor.
+        </p>
+
+        <section>
+          <h2>Apa Itu Jaundis Bayi?</h2>
+          <p>
+            Jaundis berlaku apabila terdapat pengumpulan bilirubin dalam darah bayi. Bilirubin
+            terhasil apabila sel darah merah dipecahkan. Hati bayi yang baru lahir belum matang
+            sepenuhnya, jadi proses menyingkirkan bilirubin mengambil masa sedikit lama, menyebabkan
+            kulit dan mata kelihatan kekuningan.
+          </p>
+          <p>
+            Jaundis fisiologi, iaitu jaundis biasa yang dialami hampir semua bayi, biasanya muncul
+            pada hari kedua atau ketiga selepas lahir dan hilang secara berperingkat dalam masa
+            satu hingga dua minggu.
+          </p>
+        </section>
+
+        <section>
+          <h2>Tanda-Tanda Jaundis Pada Bayi</h2>
+          <p>Antara tanda yang ibu bapa boleh perhatikan ialah:</p>
+          <ul>
+            <li>Kulit bayi kelihatan kekuningan, terutama pada muka dan bahagian dada</li>
+            <li>Bahagian putih mata (sclera) kelihatan kuning</li>
+            <li>Bayi kelihatan lebih mengantuk daripada biasa</li>
+            <li>Kurang menyusu atau sukar mengejutkan bayi untuk menyusu</li>
+          </ul>
+          <p>
+            Cara mudah untuk memeriksa ialah menekan perlahan kulit bayi dengan jari selama
+            beberapa saat dan lepaskan. Jika kawasan tersebut kelihatan lebih kuning berbanding
+            warna asal, jaundis mungkin ada.
+          </p>
+        </section>
+
+        <section>
+          <h2>Bila Jaundis Boleh Jadi Bahaya?</h2>
+          <p>
+            Walaupun kebanyakan kes adalah ringan, paras bilirubin yang terlalu tinggi boleh
+            memberi kesan kepada otak bayi. Sebab itu pemeriksaan doktor sangat penting jika
+            jaundis kelihatan teruk atau berpanjangan.
+          </p>
+          <p>Ibu bapa perlu dapatkan pemeriksaan segera jika:</p>
+          <ul>
+            <li>Jaundis muncul dalam tempoh 24 jam pertama selepas lahir</li>
+            <li>Warna kuning merebak ke seluruh badan, termasuk kaki dan tapak tangan</li>
+            <li>Bayi sangat lembik, tidak aktif, atau sukar bangun untuk menyusu</li>
+            <li>Bayi tidak menyusu dengan baik atau kurang kencing dan najis</li>
+            <li>Jaundis tidak berkurang selepas dua minggu</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Rawatan Biasa Untuk Jaundis</h2>
+          <p>
+            Jika paras bilirubin bayi melebihi tahap tertentu, doktor mungkin menyarankan rawatan
+            seperti fototerapi, di mana bayi diletakkan di bawah cahaya khas untuk membantu
+            memecahkan bilirubin dalam kulit. Dalam kes yang lebih serius, rawatan lain mungkin
+            diperlukan mengikut penilaian pakar.
+          </p>
+          <p>
+            Di rumah, ibu bapa boleh membantu dengan memastikan bayi menyusu dengan kerap.
+            Penyusuan yang mencukupi membantu bayi membuang bilirubin melalui najis dan air kencing.
+          </p>
+        </section>
+
+        <section>
+          <h2>Ringkasan Untuk Ibu Bapa</h2>
+          <ul>
+            <li>Jaundis bayi adalah sangat biasa dan selalunya tidak berbahaya</li>
+            <li>Perhatikan warna kulit dan mata, serta tingkah laku bayi</li>
+            <li>Dapatkan pemeriksaan jika jaundis kelihatan teruk atau bayi kurang aktif</li>
+            <li>Ikut nasihat doktor dan lakukan temujanji susulan jika diperlukan</li>
+          </ul>
+          <p>
+            Dengan pengetahuan asas ini, diharapkan ibu bapa boleh berasa sedikit lebih tenang
+            dan tahu bila masa yang sesuai untuk mendapatkan bantuan profesional.
+          </p>
+        </section>
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
