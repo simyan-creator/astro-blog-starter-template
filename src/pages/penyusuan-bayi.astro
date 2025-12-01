@@ -1,0 +1,117 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+
+const pageTitle = 'Penyusuan Bayi: Susu Ibu, Susu Formula & Kombinasi';
+const pageDescription =
+  'Penerangan asas tentang pilihan penyusuan bayi – susu ibu, susu formula dan penyusuan kombinasi, serta bagaimana ibu bapa boleh membuat pilihan yang sesuai.';
+---
+
+<!doctype html>
+<html lang="ms">
+  <head>
+    <BaseHead title={`${pageTitle} | ${SITE_TITLE}`} description={pageDescription} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <article>
+        <h1>{pageTitle}</h1>
+        <p>
+          Cara menyusukan bayi adalah antara keputusan awal yang paling besar bagi ibu bapa.
+          Ada ibu yang menyusukan secara eksklusif dengan susu ibu, ada yang menggunakan
+          susu formula, dan ada juga yang memilih kombinasi kedua-duanya. Situasi setiap
+          keluarga berbeza, dan sokongan emosi sangat penting.
+        </p>
+        <p>
+          Matlamat utama ialah memastikan bayi mendapat nutrisi yang mencukupi dan ibu
+          bapa berasa mampu untuk meneruskan rutin penyusuan tanpa tekanan yang berlebihan.
+        </p>
+
+        <section>
+          <h2>Kelebihan Susu Ibu</h2>
+          <p>
+            Susu ibu mengandungi nutrien lengkap dan antibodi semula jadi yang membantu
+            melindungi bayi daripada jangkitan. Ia juga mudah dihadam dan sentiasa tersedia
+            pada suhu yang sesuai.
+          </p>
+          <ul>
+            <li>Mengurangkan risiko jangkitan telinga, cirit-birit dan beberapa penyakit lain</li>
+            <li>Membantu perkembangan sistem imun bayi</li>
+            <li>Mewujudkan hubungan rapat (bonding) antara ibu dan bayi</li>
+            <li>Lebih menjimatkan berbanding susu formula</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Bila Susu Formula Menjadi Pilihan?</h2>
+          <p>
+            Ada keadaan di mana susu formula digunakan sepenuhnya atau sebahagiannya. Ini
+            mungkin disebabkan faktor kesihatan ibu, kesukaran menyusu, keadaan tempat kerja,
+            atau pilihan peribadi.
+          </p>
+          <p>
+            Susu formula moden direka untuk mengandungi nutrien yang mencukupi untuk pertumbuhan
+            bayi, selagi disediakan mengikut arahan yang betul dan botol disterilkan dengan
+            baik.
+          </p>
+          <p>
+            Jika menggunakan susu formula:
+          </p>
+          <ul>
+            <li>Ikut sukatan air dan serbuk seperti yang disyorkan pengeluar</li>
+            <li>Elakkan menambah gula atau bahan lain ke dalam botol</li>
+            <li>Buang baki susu yang tidak habis selepas tempoh masa tertentu</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Penyusuan Kombinasi (Mixed Feeding)</h2>
+          <p>
+            Ada ibu yang memberi susu ibu apabila berada di rumah dan menggunakan susu
+            formula apabila bekerja atau apabila susu badan tidak mencukupi. Ini dipanggil
+            penyusuan kombinasi, dan ia juga satu pilihan yang sah dan praktikal bagi ramai
+            keluarga.
+          </p>
+          <p>
+            Kunci utama adalah konsisten dan peka terhadap tindak balas bayi – sama ada
+            dari segi penghadaman, alahan, atau corak tidur.
+          </p>
+        </section>
+
+        <section>
+          <h2>Masalah Biasa Ketika Penyusuan</h2>
+          <p>
+            Antara cabaran yang sering dialami ibu ialah:
+          </p>
+          <ul>
+            <li>Sakit atau luka pada puting</li>
+            <li>Bayi sukar melekap (latch) dengan betul</li>
+            <li>Kebimbangan tentang “susu tak cukup”</li>
+          </ul>
+          <p>
+            Dalam situasi ini, sokongan daripada pasangan, keluarga dan tenaga kesihatan
+            sangat membantu. Penyesuaian posisi penyusuan, mendapatkan tunjuk ajar tentang
+            teknik melekap yang betul, serta rehat yang mencukupi boleh membuat perbezaan besar.
+          </p>
+        </section>
+
+        <section>
+          <h2>Yang Paling Penting: Bayi Dan Ibu Sihat</h2>
+          <p>
+            Apapun pilihan penyusuan anda – susu ibu, formula atau kombinasi – yang paling
+            penting ialah bayi membesar dengan baik dan ibu tidak berada dalam tekanan
+            melampau. Ibu yang gembira dan sihat adalah anugerah besar untuk bayi.
+          </p>
+          <p>
+            Jangan takut untuk bertanya, meminta bantuan atau mengubah rutin jika sesuatu
+            tidak menjadi. Penyusuan adalah satu perjalanan, bukan pertandingan.
+          </p>
+        </section>
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
