@@ -1,0 +1,114 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+
+const pageTitle = 'Pengenalan Makanan Pejal Untuk Bayi: Bila & Bagaimana?';
+const pageDescription =
+  'Panduan ringkas untuk ibu bapa tentang bila masa sesuai memperkenalkan makanan pejal kepada bayi dan contoh makanan yang sesuai sebagai permulaan.';
+---
+
+<!doctype html>
+<html lang="ms">
+  <head>
+    <BaseHead title={`${pageTitle} | ${SITE_TITLE}`} description={pageDescription} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <article>
+        <h1>{pageTitle}</h1>
+        <p>
+          Salah satu momen menarik dalam perjalanan membesarkan bayi ialah apabila tiba masanya
+          untuk memperkenalkan makanan pejal. Namun, ramai ibu bapa juga berasa risau – takut
+          tersalah beri, takut bayi tercekik, atau takut bayi kurang mendapat nutrisi.
+        </p>
+        <p>
+          Dengan sedikit panduan asas, proses ini boleh menjadi lebih tenang dan menyeronokkan
+          untuk seluruh keluarga.
+        </p>
+
+        <section>
+          <h2>Bila Masa Sesuai Memulakan Makanan Pejal?</h2>
+          <p>
+            Kebanyakan garis panduan mencadangkan pengenalan makanan pejal sekitar umur 6 bulan.
+            Sebelum itu, susu (susu ibu atau formula) biasanya sudah mencukupi sebagai sumber
+            nutrisi utama.
+          </p>
+          <p>
+            Tanda-tanda bayi mungkin sudah bersedia termasuk:
+          </p>
+          <ul>
+            <li>Boleh memegang kepala dengan tegak dan duduk dengan sokongan</li>
+            <li>Menunjukkan minat kepada makanan yang dimakan orang dewasa</li>
+            <li>Kurang refleks ‘tongue thrust’ (menolak makanan keluar dengan lidah)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Makanan Pertama Yang Sesuai Untuk Bayi</h2>
+          <p>
+            Makanan pertama seharusnya lembut, mudah ditelan dan tidak terlalu berempah.
+            Antara pilihan yang biasa digunakan oleh ibu bapa ialah:
+          </p>
+          <ul>
+            <li>Bubur nasi yang dimasak lembut dan dikisar halus</li>
+            <li>Purée sayur seperti labu, lobak merah atau kentang</li>
+            <li>Purée buah seperti pisang masak atau avocado</li>
+          </ul>
+          <p>
+            Perkenalkan satu jenis makanan pada satu masa, dan tunggu beberapa hari sebelum
+            memperkenalkan makanan baru. Ini membantu ibu bapa memerhatikan sebarang tanda
+            alahan seperti ruam, muntah atau cirit-birit.
+          </p>
+        </section>
+
+        <section>
+          <h2>Tekstur & Kuantiti Makanan</h2>
+          <p>
+            Pada peringkat awal, bayi mungkin hanya makan satu atau dua sudu kecil sahaja.
+            Ini normal kerana tujuan utama adalah untuk membiasakan bayi dengan rasa dan
+            tekstur, bukan menggantikan susu serta-merta.
+          </p>
+          <ul>
+            <li>Mula dengan tekstur purée yang sangat halus</li>
+            <li>Secara beransur-ansur, tingkatkan kepada tekstur lebih pekat dan berketul kecil</li>
+            <li>Ikut rentak bayi – jangan paksa jika bayi menolak, cuba lagi pada masa lain</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Keselamatan Semasa Memberi Makan</h2>
+          <p>
+            Keselamatan adalah keutamaan setiap kali bayi diberi makanan pejal. Pastikan:
+          </p>
+          <ul>
+            <li>Bayi duduk tegak, sama ada di kerusi makan bayi atau di pangkuan dengan sokongan</li>
+            <li>Potongan makanan lembut dan kecil, mengikut tahap perkembangan bayi</li>
+            <li>Tidak meninggalkan bayi makan bersendirian tanpa pengawasan</li>
+          </ul>
+          <p>
+            Elakkan makanan yang keras, bulat atau mudah menyebabkan bayi tercekik seperti
+            kacang penuh, anggur tidak dipotong, atau makanan kecil yang keras.
+          </p>
+        </section>
+
+        <section>
+          <h2>Teruskan Susu Sebagai Sumber Utama</h2>
+          <p>
+            Walaupun makanan pejal sudah diperkenalkan, susu (susu ibu atau formula) masih
+            menjadi sumber utama nutrisi bayi sehingga sekitar umur satu tahun. Makanan
+            pejal pada peringkat awal lebih kepada latihan deria dan kemahiran mengunyah.
+          </p>
+          <p>
+            Setiap bayi berbeza. Ada yang cepat menerima pelbagai jenis makanan, ada yang
+            perlahan dan memilih. Yang penting, terus tawarkan pilihan sihat dan wujudkan
+            suasana makan yang positif.
+          </p>
+        </section>
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
