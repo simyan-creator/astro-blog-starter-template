@@ -1,0 +1,122 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+
+const pageTitle = 'Jadual Tidur Bayi: Berapa Lama Bayi Patut Tidur?';
+const pageDescription =
+  'Penerangan ringkas tentang keperluan tidur bayi mengikut umur, serta tip untuk membantu bayi tidur lebih lena dan teratur.';
+---
+
+<!doctype html>
+<html lang="ms">
+  <head>
+    <BaseHead title={`${pageTitle} | ${SITE_TITLE}`} description={pageDescription} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <article>
+        <h1>{pageTitle}</h1>
+        <p>
+          Ramai ibu bapa tertanya-tanya sama ada bayi mereka tidur terlalu banyak atau terlalu
+          sedikit. Hakikatnya, corak tidur bayi sangat berubah-ubah dan berbeza antara satu bayi
+          dengan bayi yang lain, terutamanya pada tahun pertama kehidupan.
+        </p>
+        <p>
+          Walaupun tiada satu jadual yang “sempurna”, mengetahui anggaran keperluan tidur bayi
+          mengikut umur boleh membantu ibu bapa merancang rutin yang lebih teratur dan memahami
+          tingkah laku anak dengan lebih baik.
+        </p>
+
+        <section>
+          <h2>Keperluan Tidur Mengikut Umur (Anggaran)</h2>
+          <p>Secara umum, anggaran masa tidur bayi adalah seperti berikut:</p>
+          <ul>
+            <li><strong>0–3 bulan:</strong> 14–17 jam sehari (termasuk tidur siang)</li>
+            <li><strong>4–6 bulan:</strong> 12–16 jam sehari</li>
+            <li><strong>7–12 bulan:</strong> 12–15 jam sehari</li>
+            <li><strong>1–2 tahun:</strong> 11–14 jam sehari</li>
+          </ul>
+          <p>
+            Ini hanyalah panduan. Ada bayi yang perlukan lebih sedikit atau kurang sedikit, tetapi
+            selagi bayi nampak cergas, menyusu dengan baik dan membesar mengikut carta tumbesaran,
+            kebiasaannya tiada masalah besar.
+          </p>
+        </section>
+
+        <section>
+          <h2>Corak Tidur Bayi Baru Lahir</h2>
+          <p>
+            Pada peringkat awal, bayi belum mengenali beza siang dan malam. Mereka bangun kerap
+            untuk menyusu setiap 2–3 jam, sama ada siang atau malam. Ini normal dan akan berubah
+            secara berperingkat.
+          </p>
+          <p>
+            Ibu bapa boleh membantu bayi mengenal waktu siang dan malam dengan:
+          </p>
+          <ul>
+            <li>Membuka langsir pada waktu siang supaya bilik lebih terang</li>
+            <li>Mengehadkan rangsangan (bunyi kuat, cahaya terang) pada waktu malam</li>
+            <li>Menggunakan suara yang lembut dan pergerakan yang perlahan ketika menukar lampin pada waktu malam</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Mewujudkan Rutin Tidur Yang Konsisten</h2>
+          <p>
+            Apabila bayi semakin membesar, ibu bapa boleh mula mewujudkan rutin tidur malam
+            yang mudah dan boleh dijangka. Rutin ini tidak perlu rumit, tetapi mestilah konsisten.
+          </p>
+          <ul>
+            <li>Mandi atau lap badan dengan air suam</li>
+            <li>Pakaikan baju tidur yang selesa</li>
+            <li>Penyusuan terakhir sebelum tidur</li>
+            <li>Cerita ringkas atau nyanyian lullaby</li>
+            <li>Matikan lampu terang, gunakan lampu malap</li>
+          </ul>
+          <p>
+            Lama-kelamaan, bayi akan mengaitkan rutin ini dengan waktu tidur dan lebih mudah
+            untuk lena.
+          </p>
+        </section>
+
+        <section>
+          <h2>Isyarat Bayi Letih</h2>
+          <p>
+            Kadangkala bayi menjadi terlalu letih dan semakin sukar ditidurkan. Untuk mengelakkan
+            perkara ini, perhatikan isyarat awal seperti:
+          </p>
+          <ul>
+            <li>Menggosok mata atau menarik telinga</li>
+            <li>Mengelak pandangan dan menjadi lebih meragam</li>
+            <li>Menguap berulang kali</li>
+          </ul>
+          <p>
+            Apabila tanda-tanda ini muncul, cuba tenangkan bayi dan mulakan rutin tidur sebelum
+            mereka menjadi terlalu letih.
+          </p>
+        </section>
+
+        <section>
+          <h2>Bila Perlu Bimbang Tentang Tidur Bayi?</h2>
+          <p>
+            Dapatkan nasihat profesional jika bayi:
+          </p>
+          <ul>
+            <li>Terus-menerus sukar tidur dan kelihatan tidak bertenaga pada siang hari</li>
+            <li>Mendengkur dengan kuat atau kelihatan sukar bernafas semasa tidur</li>
+            <li>Kerap bangun menangis kesakitan atau tidak selesa</li>
+          </ul>
+          <p>
+            Dalam kebanyakan kes, corak tidur bayi akan menjadi lebih stabil dengan masa.
+            Kesabaran, konsistensi dan rutin yang menenangkan biasanya sudah memadai untuk membantu
+            bayi tidur lebih lena.
+          </p>
+        </section>
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
