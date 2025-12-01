@@ -1,0 +1,125 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+
+const pageTitle = 'Penjagaan Bayi Baru Lahir: Panduan Asas Untuk Ibu Bapa Baru';
+const pageDescription =
+  'Panduan asas penjagaan bayi baru lahir untuk ibu bapa di Malaysia, termasuk mandian, tukar lampin, pakaian, tidur dan keselamatan.';
+---
+
+<!doctype html>
+<html lang="ms">
+  <head>
+    <BaseHead title={`${pageTitle} | ${SITE_TITLE}`} description={pageDescription} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <article>
+        <h1>{pageTitle}</h1>
+        <p>
+          Minggu-minggu pertama selepas kelahiran boleh terasa sangat mencabar, terutama bagi
+          ibu bapa yang pertama kali mendapat cahaya mata. Banyak perkara baru perlu dipelajari
+          dalam masa yang singkat – dari cara memandikan bayi, menukar lampin, sehinggalah cara
+          menenangkan bayi yang menangis.
+        </p>
+        <p>
+          Panduan ini disediakan untuk memberi gambaran asas tentang penjagaan harian bayi
+          baru lahir. Setiap bayi adalah unik, jadi ibu bapa boleh menyesuaikan tip ini mengikut
+          keselesaan dan nasihat profesional yang diterima.
+        </p>
+
+        <section>
+          <h2>Mandian Bayi: Berapa Kerap & Apa Yang Perlu Dijaga?</h2>
+          <p>
+            Bayi baru lahir tidak perlu dimandikan terlalu kerap. Dua hingga tiga kali seminggu
+            biasanya sudah memadai, selagi kawasan lampin dan lipatan kulit dibersihkan dengan
+            baik setiap hari.
+          </p>
+          <ul>
+            <li>Gunakan air suam, bukan terlalu panas atau terlalu sejuk</li>
+            <li>Pastikan bilik tidak terlalu sejuk semasa mandikan bayi</li>
+            <li>Gunakan sabun bayi yang lembut dan tanpa pewangi kuat</li>
+            <li>Sokong kepala dan leher bayi dengan baik ketika memandikan</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Menukar Lampin Dengan Selamat</h2>
+          <p>
+            Bayi yang menyusu kerap akan kencing dan membuang najis dengan kerap juga. Lampin
+            yang bersih membantu mencegah ruam dan ketidakselesaan.
+          </p>
+          <ul>
+            <li>Periksa lampin setiap beberapa jam dan tukar jika basah atau kotor</li>
+            <li>Bersihkan kawasan kemaluan dari depan ke belakang, terutama bagi bayi perempuan</li>
+            <li>Pastikan kulit benar-benar kering sebelum pakaikan lampin baru</li>
+            <li>Gunakan krim ruam lampin jika terdapat kemerahan atau iritasi</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Pakaian & Suhu Bilik</h2>
+          <p>
+            Bayi baru lahir mudah rasa sejuk dan juga mudah rasa panas. Sebaiknya, pakaikan bayi
+            dengan lapisan pakaian yang selesa – tidak terlalu tebal dan tidak terlalu nipis.
+          </p>
+          <p>
+            Sebagai panduan ringkas, pakaikan bayi dengan satu lapisan pakaian lebih daripada
+            orang dewasa jika suhu bilik sederhana. Elakkan selimut yang terlalu tebal yang boleh
+            menutup muka atau menghalang pernafasan bayi.
+          </p>
+        </section>
+
+        <section>
+          <h2>Corak Tidur Bayi Baru Lahir</h2>
+          <p>
+            Pada minggu-minggu awal, bayi biasanya tidur antara 14–17 jam sehari, tetapi dalam
+            tempoh yang pendek dan tidak menentu. Ini normal. Ibu bapa boleh cuba mengenal pasti
+            corak bayi dan membantu mewujudkan rutin yang konsisten sedikit demi sedikit.
+          </p>
+          <ul>
+            <li>Letakkan bayi tidur terlentang, bukan meniarap</li>
+            <li>Pastikan tilam bayi keras dan rata, tanpa bantal tebal atau mainan lembut</li>
+            <li>Elakkan merokok berhampiran bayi atau di dalam rumah</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Menangani Tangisan Bayi</h2>
+          <p>
+            Menangis adalah cara bayi berkomunikasi. Mereka mungkin lapar, tidak selesa, letih,
+            atau hanya perlukan pelukan. Jika semua keperluan asas telah dipenuhi tetapi bayi
+            masih menangis, cuba:
+          </p>
+          <ul>
+            <li>Mendukung dan mengayun bayi secara perlahan</li>
+            <li>Membalut bayi dengan kain bedung yang selesa</li>
+            <li>Mewujudkan suasana yang lebih senyap dan redup</li>
+          </ul>
+          <p>
+            Jika tangisan berpanjangan dan bayi kelihatan sakit atau tidak seperti biasa, dapatkan
+            pemeriksaan daripada doktor.
+          </p>
+        </section>
+
+        <section>
+          <h2>Bila Perlu Dapatkan Bantuan?</h2>
+          <p>
+            Ibu bapa harus segera mendapatkan bantuan perubatan jika bayi mengalami demam,
+            sukar bernafas, kelihatan sangat lembik, atau kurang menyusu dengan ketara. Lebih baik
+            membuat pemeriksaan awal untuk memastikan semuanya dalam keadaan baik.
+          </p>
+          <p>
+            Penjagaan bayi baru lahir adalah satu perjalanan pembelajaran. Tiada ibu bapa yang
+            sempurna, dan rasa risau itu normal. Yang penting, terus peka, bertanya jika tidak
+            pasti, dan beri kasih sayang yang secukupnya kepada si kecil.
+          </p>
+        </section>
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
