@@ -1,0 +1,101 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+
+const pageTitle =
+  'Senarai Pusat Terapi Pertuturan (Speech Therapy) di Malaysia & 6 Tip Yang Perlu Dipertimbangkan';
+const pageDescription =
+  'Panduan ringkas untuk ibu bapa yang sedang mencari pusat terapi pertuturan (speech therapy) di Malaysia, termasuk beberapa tip penting sebelum memilih pusat yang sesuai.';
+---
+
+<!doctype html>
+<html lang="ms">
+  <head>
+    <BaseHead title={`${pageTitle} | ${SITE_TITLE}`} description={pageDescription} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <article>
+        <h1>{pageTitle}</h1>
+        <p>
+          Ramai ibu bapa mula risau apabila anak masih belum bertutur dengan jelas berbanding rakan
+          sebaya. Ada yang kurang menyebut perkataan, ada yang hanya menggunakan isyarat, dan ada
+          juga yang langsung tidak mengeluarkan bunyi tertentu walaupun sudah berumur lebih dua
+          tahun.
+        </p>
+        <p>
+          Terapi pertuturan (speech therapy) boleh membantu kanak-kanak yang mengalami kelewatan
+          percakapan, masalah sebutan, gagap, atau kesukaran menggunakan bahasa dengan betul. Di
+          Malaysia, semakin banyak pusat terapi yang menawarkan perkhidmatan ini, sama ada di
+          hospital, pusat khas atau klinik swasta.
+        </p>
+
+        <section>
+          <h2>6 Tip Sebelum Memilih Pusat Terapi Pertuturan</h2>
+          <ol>
+            <li>
+              <strong>Semak kelayakan ahli terapi.</strong>  
+              Pastikan ahli terapi mempunyai kelayakan profesional dalam bidang terapi pertuturan
+              atau patologi pertuturan bahasa, dan berdaftar dengan badan profesional yang
+              berkaitan.
+            </li>
+            <li>
+              <strong>Tanya tentang pengalaman dengan kes seperti anak anda.</strong>  
+              Setiap kanak-kanak berbeza. Ada pusat yang lebih biasa mengendalikan kelewatan
+              percakapan mudah, ada pula yang mahir dalam kes yang melibatkan autisme, ADHD atau
+              sindrom tertentu.
+            </li>
+            <li>
+              <strong>Lihat pendekatan terapi yang digunakan.</strong>  
+              Adakah sesi terapi lebih kepada aktiviti permainan (play-based), latihan sebutan
+              berstruktur, atau gabungan kedua-duanya? Pilih pendekatan yang sesuai dengan
+              personaliti anak.
+            </li>
+            <li>
+              <strong>Perhatikan peranan ibu bapa dalam sesi.</strong>  
+              Pusat yang baik biasanya melibatkan ibu bapa – sama ada melalui sesi konsultasi,
+              latihan di rumah atau tugasan susulan. Ini penting supaya kemajuan tidak terhenti
+              hanya di dalam bilik terapi.
+            </li>
+            <li>
+              <strong>Fahami jadual dan komitmen masa.</strong>  
+              Terapi pertuturan biasanya memerlukan sesi berkala (contohnya seminggu sekali) dalam
+              tempoh beberapa bulan. Pastikan jadual pusat tersebut praktikal dengan rutin harian
+              keluarga.
+            </li>
+            <li>
+              <strong>Semak kos dan pakej yang ditawarkan.</strong>  
+              Bayaran sesi berbeza mengikut lokasi, pengalaman ahli terapi dan jenis pusat. Tanyakan
+              dengan jelas struktur kadar – sesi individu, sesi kumpulan, dan tempoh setiap sesi.
+            </li>
+          </ol>
+        </section>
+
+        <section>
+          <h2>Contoh Pusat Terapi Pertuturan di Malaysia</h2>
+          <p>
+            Senarai di bawah hanyalah contoh jenis tempat di mana terapi pertuturan biasanya
+            ditawarkan. Sila rujuk laman web rasmi, direktori profesional atau doktor anda untuk
+            maklumat terkini mengenai lokasi, harga dan kelayakan.
+          </p>
+
+          <h3>1. Hospital & Pusat Perubatan</h3>
+          <ul>
+            <li>Hospital kerajaan tertentu yang mempunyai bahagian rehabilitasi / pediatrik</li>
+            <li>Hospital swasta dengan pakar pediatrik perkembangan dan ahli terapi pertuturan</li>
+          </ul>
+
+          <h3>2. Pusat Perkembangan Kanak-Kanak</h3>
+          <ul>
+            <li>Pusat yang menawarkan terapi pertuturan, terapi carakerja (occupational therapy) dan fisioterapi</li>
+            <li>Sesetengah pusat fokus pada kanak-kanak dengan keperluan khas seperti autism spectrum</li>
+          </ul>
+
+          <h3>3. Klinik Terapi Pertuturan Persendirian</h3>
+          <ul>
+            <li>Dikendalikan oleh ahli terapi berdaftar secara individu atau dalam kumpulan kecil</li>
+            <li>Biasanya menawarkan sesi individu dengan temujanji yang lebih fleksibel</li>
+          </ul>
